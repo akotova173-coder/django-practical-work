@@ -1,0 +1,26 @@
+# pyproject.toml
+[tool.poetry]
+name = "mysite"
+version = "0.1.0"
+description = "Django project for practical work"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2"
+django-debug-toolbar = "4.0.0"
+django-filter = "22.1"
+djangorestframework = "3.14.0"
+pillow = "9.4.0"
+pytz = "2022.7.1"
+sqlparse = "0.4.2"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
