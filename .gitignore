@@ -1,0 +1,5 @@
+db.sqlite3
+data/
+uploads/
+__pycache__/
+*.pyc
